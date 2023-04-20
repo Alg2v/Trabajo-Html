@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>INACAP</title> <!-- Esto le da titulo a la pagina -->
+    <meta charset="UTF-8"> <!-- especifica la codificación de caracteres del documento -->
+	<link rel="stylesheet" type="text/css" href="css/Diseño.css" /> <!-- vincula el archivo html con el archivo css -->
+	<link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.png" sizes="16x16 24x24 36x36 48x48"> <!-- Nos deja poner el favicon  -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'> <!-- Nos permite usar esa font -->
+</head>
+
+<header><!--  Aca solamente me organizo en todo lo que tendra dentro el header -->
+    
+    <div id="DivHeader">
+
+        <div id="BarritaInicioRojo"></div><div id="BarritaInicioBlanco"></div><!--  con esto hacemos las barras de colores de arriba -->
+        <div id="SubirSlider"> <!-- con esto movemos de lado el slider -->
+            <div class="slider-frame"> <!-- le damos la forma al slider -->
+                <ul>
+                    <li><img src="img/bienvenida-alumnos-prop-1.jpg"></li>  <!-- agregamos las fotos que iran en el slider -->
+                    <li><img src="img/Sede-la-granja.jpg"></li>  <!-- agregamos las fotos que iran en el slider -->
+                    <li><img src="img/elige-mantenerte-actualizado.jpg"></li> <!-- agregamos las fotos que iran en el slider -->
+                </ul>
+            </div>
+          
+            <div><img id="AjustarLogoHeader" src="img/logo-blanco.png"></div> <!-- Ajusto donde ira ubicado el logo y el tamaño -->
+
+            <div id="Btniz">&#60;</div><!--  con esto hago los botones -->
+            <div id="Btnder">&#62;</div> <!-- con esto hago los botones -->
+        </div>
+
+        <div id="Menu"> <!-- aca hago una lista en donde esta la primera parte del menu, la parte de arriba -->
+            <ul>
+                <li class="ListaHeader"><a class="LinkHeader" href="">Centro de Formación Técnica</a></li>
+                <li class="ListaHeader"><a class="LinkHeader" href="">Instituto Profesional</a></li>
+                <li class="ListaHeader"><a class="LinkHeader" href="">Universidad</a></li>
+                <li class="ListaHeader"><a class="LinkHeader" href="https://portales.inacap.cl/estudiantes/index">Estudiantes</a></li>
+                <li class="ListaHeader"><a class="LinkHeader" href="https://portales.inacap.cl/exalumnos/index">ExAlumnos</a></li>
+                <li class="ListaHeader"><a class="LinkHeader" href="https://portales.inacap.cl/docentes/">Docentes</a></li>
+                <li class="ListaHeader"><a class="LinkHeader" href="https://siga.inacap.cl/Inacap.VerificacionCertificados/Default.aspx">Verificación de Certificados</a></li>
+                    <img class="AjustarUtilidadesHeader" src="img/lupa.png">
+                    <img class="AjustarUtilidadesHeader" src="img/person-7243410_1280.png">
+            </ul>
+
+            <div id="Separacion"></div> <!-- aca hago la rallita blanca que separa las 2 partes de ese menu-->
+
+            <div id="SubMenu"> <!-- aca hago una lista en donde esta la segunda parte del menu, la parte de abajo -->
+                <ul>
+                    <li class="ListaHeader"><a class="LinkHeader" href="https://portales.inacap.cl/admision/index">ADMISIÓN</a></li>
+                    <li class="ListaHeader"><a class="LinkHeader" href="https://portales.inacap.cl/carreras/index">CARRERAS</a></li>
+                    <li class="ListaHeader"><a class="LinkHeader" href="https://portales.inacap.cl/educacion-continua/index">EDUCACIÓN CONTINUA</a></li>
+                    <li class="ListaHeader"><a class="LinkHeader" href="">SEDES</a></li>
+                    <li class="ListaHeader"><a class="LinkHeader" href="">COLEGIOS</a></li>
+                    <li class="ListaHeader"><a class="LinkHeader" href="">VINCULACIÓN CON EL MEDIO</a></li>
+                    <li class="ListaHeader"><a class="LinkHeader" href="https://portales.inacap.cl/noticias/">NOTICIAS</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header> 
+
+    <div id="DivCovid">  <!-- Aca va todo lo que tiene que ver con el mensaje de medidas covid y los botones -->
+        <div><a href="https://portales.inacap.cl/"><input id="BotonCv1" type="button" value="¡Nueva Información!"></a><h1 id="TextoCovid">Medidas COVID-19</h1> <a href="https://portales.inacap.cl/"><input id="BotonCv2" type="button" value=">> Más Información"></a></div>
+    </div>
+
+    <div id="noticias"><!-- Aca empieza la parte de las noticias y en este div se guardan las 3 noticias y titulos -->
+            
+        <h1 id="LetraTituloNoticia">Noticias</h1> <!-- le cambia el font tamaño al titulo-->
+
+        <div id="SeparadorNoticias"></div> <!-- aca hago la rallita roja que va debajo el titulo-->
+
+        <div id="MoverNoticias">
+            <div class="noticia"><img class="AjustarFotoNoticias" src="img/800x600_imagen_noticia-x2Db.jpg"> <!-- Esta es la noticia 1 -->
+               <a class="Color" href="https://portales.inacap.cl/"><p>Miercoles 13 de abril: Te invitamos a la ceremonia de premiación del <br> Reconocimiento Exalumno <br> Destacado 2021</p></a>
+            </div>
+        
+            <div class="noticia"><img class="AjustarFotoNoticias" src="img/Sede-x20la-x20Granja_800.jpg"> <!--  Esta es la noticia 2 -->
+               <a class="Color" href="https://portales.inacap.cl/"> <p>Nueva Sede de INACAP en La Granja <br> abre sus puertas y da la bienvenida a estudiantes en este Año Académico <br> 2022</p></a>
+            </div>
+        
+            <div class="noticia"> <img class="AjustarFotoNoticias" src="img/Inacapinos.jpg"> <!--  Esta es la noticia 3 -->
+                <a class="Color" href="https://portales.inacap.cl/"><p>Estudiantes de INACAP Sede <br> Santiago Centro representarán a <br> Chile en final mundial de <br> competencia TIC de Huawei</p></a>
+            </div>  
+        </div>
+            <a href="https://portales.inacap.cl/"><p id="TextoVerTodo">>>Ver todas las Noticias</p></a>
+    </div>
+
+    <div id="DiplomadoCont"> <!-- Aca va todo lo que tiene que ver con los diplomados -->
+
+        <h1 id="LetraTituloDiplomados">Diplomados de Educación Continua </h1>
+
+        <div id="SeparadorDiplomado"></div> <!-- aca hago la rallita roja que va debajo el titulo-->
+
+        <div id="Cuadro1"><!--  Aqui va solo el diplomado de logistica -->
+
+            <img id="AjustarFotoDiplomados" src="img/Miniatura-Logistica.png">
+            <div id="CuadroInfo">
+                <p id="AjustarSubTituloDiplomados">Logistica</p>
+                <ul>
+                    <ul class="ListaDiplomados">>>Diplomado en Gestión de Abastecimiento y <br> Operaciones Logística</ul>
+                    <ul class="ListaDiplomados">>>Diplomado en Gestión de Transporte y <br> Distribución</ul>
+                </ul>
+            </div>
+        </div>
+
+        <div id="Cuadro2"> <!--  Aqui va solo el diplomado de mineria -->
+
+            <img id="AjustarFotoDiplomados" src="img/Miniatura-Mineria.png">
+            <div id="CuadroInfo">
+                <p id="AjustarSubTituloDiplomados">Minería</p>
+                <ul>
+                    <ul class="ListaDiplomados">>>Diplomado en Gestión de Abastecimiento y <br> Operaciones Logística</ul>
+                    <ul class="ListaDiplomados">>>Diplomado en Gestión de Transporte y <br> Distribución</ul>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="OrganizacionCuadro">
+
+        <h1 id="LetraTituloOrganizacion">Nuestra Organización</h1>
+
+        <div id="SeparadorOrganizacion"></div> <!-- aca hago la rallita roja que va debajo el titulo-->
+
+        <div>
+            <div class="FotosOrganizacion"><p class="TextoOrg">Centro de Formación <br> Tecnica INACAP</p><div class="SeparadorOrganizacionFotos1"></div><a href="https://portales.inacap.cl/"><img class="AjustarFotoOrg" src="img/organizacion-cft.jpg"></a></div>
+            <div class="FotosOrganizacion"><p class="TextoOrg">Instituto Profesional <br> INACAP</p><div class="SeparadorOrganizacionFotos2"></div><a href="https://portales.inacap.cl/"><img class="AjustarFotoOrg" src="img/organizacion-ip.jpg"></a></div>
+            <div class="FotosOrganizacion"><p class="TextoOrg">Universidad Tecnologica de <br> Chile INACAP</p><div class="SeparadorOrganizacionFotos3"></div><a href="https://portales.inacap.cl/"><img class="AjustarFotoOrg" src="img/organizacion-univ.jpg"></a></div>
+        </div>
+
+    </div>
+
+    <div id="AgendaCuadro">
+
+        <p id="ParrafoAgenda">MIRA NUESTRA</p>
+        <h1 id="LetraTituloAgenda">Agenda de Eventos</h1>
+
+        <div id="SeparadorAgenda"></div> <!-- aca hago la rallita roja que va debajo el titulo-->
+
+        <div id="ContenedorFotos">
+            <div><a href="https://portales.inacap.cl/"><img class="FotosAgenda" src="img/362x132_caluga_evento_Practicas-Internacionales.jpg"></a></div>
+            <div><a href="https://portales.inacap.cl/"><img class="FotosAgenda" src="img/362x132-CALUGA-HITO-5.jpg"></a></div>
+            <div><a href="https://portales.inacap.cl/"><img class="FotosAgenda" src="img/362x132_educacion_continua.jpg"></a></div>
+        </div>
+
+        <div id="ContenedorAgenda">
+            <div id="CuadroAgenda1"><p class="Dia">13</p><p class="Mes">Apr</p><p class="TituloNoticiaAgenda">Te invitamos a participar de la <br> Ceremonia del reconocimiento <br> Exalumno Destacado 2021</p><p class="TextoLugar">Lugar: Modalidad online</p></div>
+            <div id="CuadroAgenda2"><p class="Dia">20</p><p class="Mes">Apr</p><p class="TituloNoticiaAgenda">Te invitamos a webinar<br> informativo para apoyar tu<br> práctica en el extranjero</p><p class="TextoLugar">Lugar: Modalidad online</p></div>
+            <div id="CuadroAgenda3"><p class="Dia">22</p><p class="Mes">Apr</p><p class="TituloNoticiaAgenda">Propedéutico 2022</p><p class="TextoLugar">Lugar: Sedes</p></div>
+            <div id="CuadroAgenda4"><p class="Dia">25</p><p class="Mes">Apr</p><p class="TituloNoticiaAgenda">Co-Creando-Futuro</p><p class="TextoLugar">Lugar: Sedes INACAP</p></div>
+        </div>
+
+        <p id="TextoVerTodoAgenda">>>Ver todos los Eventos</p>
+
+    </div>
+
+    <div id="VideoCuadro"> <!-- Aca va el video y el texto al lado -->
+        <div id="ContenedorVideo"> <!-- Aca solo va el video -->
+            <div id="Video"><iframe id="VideoTamaño" src="https://www.youtube.com/embed/cc92T2YoNwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div> <!-- Aca va el video -->
+            
+            <div id="InfoVideo"> <!--  Aca van las frases que estan al lado del video -->
+                <p id="Text1">POR QUÉ</p>
+                <h1 id="Text2">Estudiar en INACAP</h1>
+
+                <div id="SeparadorTituloVideo"></div> <!-- aca hago la rallita roja que va debajo el titulo-->
+
+                <div id="OrdenarFrases"> <!-- con eso muevo un poco las frases -->
+
+                    <p class="Text3">Sistema de Acceso a la Educación Superior</p>
+ 
+                    <div id="SeparadorTituloVideo2"></div> <!-- aca hago la rallita roja que va debajo del texto-->
+
+                    <p class="Text3">Financiamiento Estudiantil</p>
+
+                    <div id="SeparadorTituloVideo3"></div>  <!-- aca hago la rallita roja que va debajo del texto-->
+
+                    <p class="Text3">Centro de Formación Técnica INACAP <br> adscrito a gratuidad</p>
+
+                    <div id="SeparadorTituloVideo4"></div>  <!-- aca hago la rallita roja que va debajo del texto-->
+
+                    <p class="Text3">Instituto Profesional INACAP adscrito a <br> gratuidad</p>
+                
+                    <div id="SeparadorTituloVideo5"></div>  <!-- aca hago la rallita roja que va debajo del texto-->
+
+                    <ul id="OrdenarListaVideo"><!--  aca va la lista debajo las frases -->
+                        <li class="TextLista">WEB ADMISIÓN</li>
+                        <li class="TextLista">-</li>
+                        <li class="TextLista">FOLLETO ADMISIÓN 2O22</li>
+                        <li class="TextLista">-</li>
+                        <li class="TextLista">GUÍA DEL ESTUDIATE</li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+<footer>
+
+    <div id="ContenedorRedesSociales"><!--  Aca metemos las fotos de redes sociales -->
+        
+        <a href="https://portales.inacap.cl/"><img id="Foto1Footer" src="img/fb-blanco.png"></a>
+
+        <div id="Linea1"></div> <!-- aca hago la rallita roja que va al lado las fotos -->
+
+        <a href="https://portales.inacap.cl/"><img id="Foto2Footer" src="img/yt-blanco.png"></a>
+
+        <div id="Linea2"></div> <!-- aca hago la rallita roja que va al lado las fotos -->
+
+        <a href="https://portales.inacap.cl/"><img id="Foto3Footer" src="img/tw-blanco.png"></a>
+
+        <div id="Linea3"></div> <!-- aca hago la rallita roja que va al lado las fotos -->
+
+        <a href="https://portales.inacap.cl/"><img id="Foto4Footer" src="img/in-blanco.png"></a>
+
+        <div id="Linea4"></div>  <!-- aca hago la rallita roja que va al lado las fotos -->
+
+        <a href="https://portales.inacap.cl/"><img id="Foto5Footer" src="img/ig-blanco.png"></a>
+
+    </div>
+
+    <div id="ContenedorFooter"> <!-- Aca van todas las listas de informacion -->
+
+        <ul id="MoverLista1">
+            <li class="Lista1"><img class="AjustarMiniFotos" src="img/Telefono.png"> 800 20 25 20</li>
+            <li class="Lista1"><img class="AjustarMiniFotos" src="img/icone-de-telephone.png">+56 2 25797204</li>
+            <li class="Lista1"><img class="AjustarMiniFotos" src="img/carta.png"> informaciones@inacap.cl</li>
+            <li class="Lista1"><img class="AjustarMiniFotos" src="img/ubicacion.png">Casa central | Nuestras Sedes en googlemaps <br> Av. Vitacura 10.151, Vitacura, Santiago - Chile</li>
+        </ul>
+
+        <ul id="MoverLista2">
+            <li class="Lista2">Centro de Formación Técnica INACAP</li>
+            <li class="Lista2">Instituto Profesional INACAP</li>
+            <li class="Lista2">Universidad INACAP</li>
+            <li class="Lista2"><strong>TRANSPARENCIA</strong></li>
+            <li class="Lista2">Aseguramiento de la Calidad</li>
+            <li class="Lista2">Contactos en Sede</li>
+        </ul>
+
+        <ul id="MoverLista3">
+            <li class="Lista3">Biblioteca</li>
+            <li class="Lista3">Reglamentos y protocolos</li>
+            <li class="Lista3">Protocolo contra la Violencia de Género <br> y el Acoso Sexual</li>
+            <li class="Lista3">Código de Ética INACAP</li>
+            <li class="Lista3">Políticas de Privacidad</li>
+        </ul>
+
+        <ul id="MoverLista4">
+            <li class="Lista4">Trabaje con nosotros</li>
+            <li class="Lista4">Portal de Pago</li>
+            <li class="Lista4">■ Educación Superior (IP-CFT-U)</li>
+            <li class="Lista4">■ Educación Continua</li>
+            <li class="Lista4">Verificación de Documentos</li>
+            <li class="Lista4"><img class="AjustarMiniFotos" src="img/carta.png"> INACAPmail</li>
+        </ul>
+
+        <div id="ImagenesFooter"><!--  Aca junto todas las fotos del footer -->
+
+            <div id="MoverFotosFinales"> <!-- aca muevo las fotos  -->
+                <img id="AjustarFotoLogoFinal" src="img/logoHeader.png"> 
+                <img class="AjustarFotosFinales" src="img/iso9001-2015.jpg">
+                <img class="AjustarFotosFinales" src="img/vertebral.png">
+                <img class="AjustarFotosFinales" src="img/cnca.png">
+                <img class="AjustarFotosFinales" src="img/cft-transparente.png">
+                <img class="AjustarFotosFinales" src="img/ip-transparente.png">
+    
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</html>
